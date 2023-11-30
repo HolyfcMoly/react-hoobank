@@ -13,6 +13,11 @@ export default {
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],
             },
+            flex: {
+                '0.5': '0.5 1 0%',
+                '1.5': '1.5 1 0%',
+                '2': '2 2 0%',
+            }
         },
         screens: {
             xs: "480px",

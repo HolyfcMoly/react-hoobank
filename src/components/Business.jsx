@@ -1,4 +1,3 @@
-import React from "react";
 import styles, { layout } from "../style";
 import { features } from "../constants/index";
 import Button from "./Button";
