@@ -6,7 +6,10 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import newRobot from "./newRobot.png";
+import sBall from "./s-Ball.svg";
+import mBall from "./m-Ball.svg";
+import xlBall from "./xl-Ball.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -33,7 +36,6 @@ export {
   dropbox,
   logo,
   quotes,
-  robot,
   send,
   shield,
   star,
@@ -50,4 +52,8 @@ export {
   people01,
   people02,
   people03,
+  newRobot,
+  sBall,
+  mBall,
+  xlBall
 };

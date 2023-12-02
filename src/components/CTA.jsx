@@ -1,7 +1,7 @@
-import styles, { layout } from "../style";
 import Button from "./Button";
+import styles, { layout } from "../style";
 
-const CTA = () => (
+const Cta = () => (
     <section
         className={`${layout.section} ${styles.flexCenter} sm:my-20 my-6 sm:px-24 sm:py-[4.5rem] px-12 py-8 justify-between bg-black-gradient-2 rounded-[20px] box-shadow`}
     >
@@ -21,4 +21,4 @@ const CTA = () => (
     </section>
 );
 
-export default CTA;
+export default Cta;

@@ -3,7 +3,7 @@ import Button from './Button';
 import CardDeal from './CardDeal';
 import Business from './Business';
 import Clients from './Clients';
-import CTA from './CTA';
+import Cta from './CTA';
 import FeedBackCard from './FeedBackCard';
 import Footer from './Footer';
 import GetStarted from './GetStarted';
@@ -18,7 +18,7 @@ export {
     CardDeal,
     Business,
     Clients,
-    CTA,
+    Cta,
     FeedBackCard,
     Footer,
     GetStarted,

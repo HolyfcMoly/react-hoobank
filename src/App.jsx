@@ -5,7 +5,7 @@ import {
     CardDeal,
     Business,
     Clients,
-    CTA,
+    Cta,
     Billing,
     Footer,
     Hero,
@@ -34,7 +34,7 @@ const App = () => {
                     <CardDeal />
                     <Testimonials />
                     <Clients />
-                    <CTA />
+                    <Cta />
                     <Footer />
                 </div>
             </div>

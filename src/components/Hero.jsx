@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { discount, newRobot, sBall, mBall, xlBall } from "../assets";
 import GetStarted from "../components/GetStarted";
 
 const Hero = () => (
@@ -26,7 +26,7 @@ const Hero = () => (
                     The Next <br className="sm:block hidden" />{" "}
                     <span className="text-gradient">Generation</span>{" "}
                 </h1>
-                <div className="sm:flex hidden  md:mr-4 mr-0">
+                <div className="sm:flex hidden  md:mr-4 mr-0 getStarted">
                     <GetStarted />
                 </div>
             </div>
@@ -45,17 +45,27 @@ const Hero = () => (
             className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
         >
             <img
-                src={robot}
+                src={newRobot}
                 alt="billing"
                 className="w-[100%] h-[100%] relative z-[5]"
             />
+            <div className="absolute z-[5] bottom-[30%] left-[18%] animate-[bounce_1s_infinite_alternate]">
+                <img src={sBall} alt="sBall" className="ss:w-[32px] ss:h-[32px] w-[20px] h-[20px]"/>
+            </div>
+            <div className="absolute z-[5] bottom-[35%] right-[25%] animate-[bounce_1s_0.5s_infinite_alternate]">
+                <img src={mBall} alt="mBall" className="ss:w-[68px] ss:h-[68px] w-[32px] h-[32px]"/>
+            </div>
+            <div className="absolute z-[5] top-[0] left-[7%] animate-[bounce_1s_0.7s_infinite_alternate]">
+                <img src={xlBall} alt="xlBall" className="ss:w-[101px] ss:h-[101px] w-[45px] h-[45px]"/>
+            </div>
             <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
             <div className="absolute z-[1] w-[80%] h-[40%] rounded-full bottom-40 white__gradient" />
             <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
         </div>
-
         <div className={`sm:hidden  ${styles.flexCenter}`}>
-            <GetStarted />
+            <div className="getStarted">
+                <GetStarted />
+            </div>
         </div>
     </section>
 );
